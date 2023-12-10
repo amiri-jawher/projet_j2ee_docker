@@ -3,6 +3,6 @@
   hosts: localhost
   tasks:
     - name: Run Docker container from pulled image
-      command: docker run -d --name docker_container -p 8080:8080 ajawher/git_jenkins_docker_dockerhub:v1
+      command: docker run -d --name docker_container -p 8082:8080 ajawher/git_jenkins_docker_dockerhub:v1
 
 
