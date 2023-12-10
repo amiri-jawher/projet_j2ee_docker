@@ -19,7 +19,7 @@
     shell: |
        docker rm $(docker ps -a -q);
     when: docker_info.containers != 0
- - name: Get details of all images
+  - name: Get details of all images
     docker_host_info:
       images: yes
       verbose_output: yes
