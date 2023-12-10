@@ -1,6 +1,6 @@
 ---
 - name: Create Container
-  hosts: server
+  hosts: localhost
   become: yes
   tasks:
     - name: Run Docker container from pulled image
