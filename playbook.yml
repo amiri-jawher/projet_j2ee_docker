@@ -1,7 +1,6 @@
 ---
 - name: Create Container
   hosts: localhost
-  become: yes
   tasks:
     - name: Run Docker container from pulled image
       command: docker run -d --name docker_container ajawher/git_jenkins_docker_dockerhub:v1
